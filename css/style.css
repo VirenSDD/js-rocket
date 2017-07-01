@@ -6,7 +6,7 @@ body{
     widt: 100px;
     height: 100px;
     background-color: darkseagreen;
-    transition: background-color 1s;    
+    transition: background-color 2s;    
 }
 
 .cool.red{
