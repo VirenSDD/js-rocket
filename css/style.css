@@ -5,7 +5,7 @@ body{
 .cool{
     widt: 100px;
     height: 100px;
-    background-color: darkseagreen;
+    background-color: mediumseagreen;
     transition: background-color 2s;    
 }
 
