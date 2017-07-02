@@ -1,16 +1,51 @@
 <!DOCTYPE html> 
+
 <html>
-    <head>
-    <title>Rocket Launch Sequence!</title>
     
+    <head>
+        
+    <title>Rocket Launch Sequence!</title>
+    <link rel="stylesheet" type= "text/css" href="css/rocket.css">
     </head>
     
     <body>
         <div class="left">
             
-        </div>
-        <div class="right">
+            <div class="state1">
+                <h1><font color="red">JS Rocket Launch!</font></h1>
+                <a href="#" class="button" onclick="startCountDown();">
+                <font color="red">Launch!</font></a>
+            </div>
+            
+            <div class="state2">
+                <h1 id="countdown"><font color="red">10!</font></h1>
+                <a href="#" class="button" onclick="abort();">
+                <font color="red">ABORT!</font></a>
+            </div>
+            
+            <div class="state3">
+                <h1><font color="red">Lift Off!</font></h1>
+            </div>
+            
+            <div class="state4">
+            <h1><font color="red">Well Done!</font></h1>
+            <a href="#" class="button" onclick="doItAgain();">
+            <font color="red">DO IT AGAIN!</font></a>
+            </div>
+            
+            <div class="state5">
+            <h1><font color="red">Oh no! Something went wrong!</font></h1>
+            <a href="#" class="button" onclick="doItAgain();">
+            <font color="red">TRY AGAIN!</font></a>
+            </div>
             
         </div>
+        
+        <div class="right">
+            <div class="ground"></div>
+            <div class="rocket"></div>
+        </div>
+        
     </body>
+    
 </html>
