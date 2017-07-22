@@ -21,7 +21,7 @@ var changeState = function (state) {
             var randomNumber = Math.round(Math.random()*10);
             
             console.log('randomNumber:', randomNumber)
-            if (randomNumber > 5) {
+            if (randomNumber > 6) {
                 changeState(4); //Éxito en el lanzamiento del cohete 
             } else {
                 changeState(5); //Lanzamiento del cohete fallido 
