@@ -7,19 +7,20 @@
     <title>Rocket Launch Sequence!</title>
     <link rel="stylesheet" type= "text/css" href="css/rocket.css">
     </head>
+    <script type="text/javascript" src="js/rocket.js"></script>
     
-    <body>
+    <body class="body-state1">
         <div class="left">
             
             <div class="state1">
                 <h1><font color="red">JS Rocket Launch!</font></h1>
-                <a href="#" class="button" onclick="startCountDown();">
+                <a href="#" class="button" onclick="changeState(2);">
                 <font color="red">Launch!</font></a>
             </div>
             
             <div class="state2">
-                <h1 id="countdown"><font color="red">10!</font></h1>
-                <a href="#" class="button" onclick="abort();">
+                <h1 id="countdown">10</h1>
+                <a href="#" class="button" onclick="changeState(1);">
                 <font color="red">ABORT!</font></a>
             </div>
             
@@ -29,13 +30,13 @@
             
             <div class="state4">
             <h1><font color="red">Well Done!</font></h1>
-            <a href="#" class="button" onclick="doItAgain();">
+            <a href="#" class="button" onclick="changeState(1);">
             <font color="red">DO IT AGAIN!</font></a>
             </div>
             
             <div class="state5">
             <h1><font color="red">Oh no! Something went wrong!</font></h1>
-            <a href="#" class="button" onclick="doItAgain();">
+            <a href="#" class="button" onclick="changeState(1);">
             <font color="red">TRY AGAIN!</font></a>
             </div>
             
