@@ -14,7 +14,7 @@ var changeState = function (state) {
              if (countdownNumber<=0){
             changeState(3);
             };
-        }, 500);
+        }, 1000);
        
     } else if (state==3) {
         var success = setTimeout(function(){

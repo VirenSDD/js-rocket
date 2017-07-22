@@ -1,3 +1,7 @@
+.body{
+    font-family: 'helvetica', 'arial', sans-serif;
+}
+
 .left{
     background-color: mediumturquoise;
     position: fixed;
@@ -5,6 +9,27 @@
     height: 100%;
     top: 0;
     left: 9;
+    
+}
+
+.interface{
+    text-align: center;
+    padding: 20px;
+}
+
+a.button{
+    display: inline-block;
+    background-color: ghostwhite;
+    color: black;
+    padding: 20px 40px;
+    text-decoration: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: color 300ms;
+}
+
+a:hover{
+    background-color: skyblue;
     
 }
 
